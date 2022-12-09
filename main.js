@@ -17,7 +17,7 @@ function startGame() {
         message = ("Wohoo! you've got BlackJAck!")
         hasBlackJack = true
     } else if (sum > 21) {
-        message = ("you're out of the game! ")
+        message = ("you're out of the ыва! ")
         isALive = false
     }
     messageEl.textContent = message
